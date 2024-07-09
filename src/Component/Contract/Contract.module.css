@@ -1,0 +1,19 @@
+.contract_con{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    height: 200px;
+    color: #757575;
+    overflow: hidden;
+    margin: 0 auto;
+    
+    & .contact_title {
+        font-size: 32px;
+        font-weight: bold;
+        margin-top: 40px;
+    }
+
+    & p {
+        margin-top: 10px;
+    }
+}
