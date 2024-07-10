@@ -14,7 +14,7 @@ function Education() {
             <h5>Achievement</h5>
             <ul>
                 <li>The 2015 ACM-ICPC Asia Thailand National On-site Programming Contest</li>
-                <li>The 2015 ACM-ICPC Asia Thailand National On-site Programming Contest</li>
+                <li>The 2016 ACM-ICPC Asia Thailand National On-site Programming Contest</li>
             </ul>
             <h5>Project</h5>
             <p>Wireless Sensor network for Home Security</p>
