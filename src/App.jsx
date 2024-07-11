@@ -1,4 +1,5 @@
 import './App.css'
+import { useRef } from 'react';
 import ScrollToTop from "react-scroll-to-top";
 
 import Navbar from './Component/Navbar/Navbar'
@@ -7,7 +8,7 @@ import Education from './Component/Education/Education'
 import WorkExperience from './Component/WorkExperience/WorkExperience';
 import Skill from './Component/Skill/Skill';
 import Contract from './Component/Contract/Contract';
-import { useRef } from 'react';
+import Footer from './Component/Footer/Footer';
 
 function App() {
   const edu = useRef(null);
@@ -36,6 +37,7 @@ function App() {
       <div ref={work}><WorkExperience/></div>
       <div ref={skill}><Skill/></div>
       <div ref={contract}><Contract/></div>
+      <div><Footer/></div>
     </>
   )
 }
