@@ -3,7 +3,14 @@
     background-color: #fff;
     display: flex;
     justify-content: center;
-  comm  align-items: center; */
+    align-items: center; */
     font-size: 12px;
     margin-left: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .footer_con {
+        margin: 0;
+        text-align: center;
+    }
 }
