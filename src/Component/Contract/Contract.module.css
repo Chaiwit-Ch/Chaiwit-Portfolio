@@ -21,3 +21,9 @@
         }
     }
 }
+
+@media screen and (max-width: 480px) {
+    .contract_con {
+        height: auto;
+    }
+}
