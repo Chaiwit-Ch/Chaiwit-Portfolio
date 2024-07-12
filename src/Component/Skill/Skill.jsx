@@ -1,6 +1,6 @@
 import React from 'react'
 import { TbBrandCpp, TbBrandCSharp } from "react-icons/tb";
-import { FaMicrochip, FaFileCode, FaReact, FaNode, FaHtml5, FaCss3Alt } from 'react-icons/fa6'
+import { FaMicrochip, FaFileCode, FaReact, FaPython, FaHtml5, FaCss3Alt } from 'react-icons/fa6'
 import { SiVisualbasic } from "react-icons/si";
 
 import styles from './Skill.module.css'
@@ -33,7 +33,7 @@ function Skill() {
                 <FaReact/>
             </div>
             <div className={styles.skills_item}>
-                <FaNode />
+                <FaPython/>
             </div>
         </div>
     </div>
